@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="314abf5f-4dba-4d8e-ae34-83007a3172f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/rutasAngular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/rutasAngular/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rutasAngular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rutasAngular/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rutasAngular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rutasAngular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rutasAngular/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rutasAngular/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +23,8 @@
       <file leaf-file-name="app.routes.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.routes.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="295">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -30,14 +32,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+            <state relative-caret-position="136">
+              <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ruta-inicio.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ruta-inicio.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -64,7 +91,7 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="187">
               <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
@@ -90,9 +117,11 @@
       <list>
         <option value="$PROJECT_DIR$/rutasAngular/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/rutasAngular/src/index.html" />
-        <option value="$PROJECT_DIR$/rutasAngular/src/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/rutasAngular/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/rutasAngular/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.html" />
+        <option value="$PROJECT_DIR$/rutasAngular/src/app/app.routes.ts" />
+        <option value="$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.ts" />
       </list>
     </option>
   </component>
@@ -146,6 +175,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Angular-Rutas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-Rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="rutasAngular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ruta-inicio" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -185,12 +222,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528492406663</updated>
-      <workItem from="1528492409047" duration="3680000" />
+      <workItem from="1528492409047" duration="6164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3680000" />
+    <option name="totallyTimeSpent" value="6164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -236,23 +273,24 @@
     <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.routes.ts">
+    <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="136">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="62" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="187">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
@@ -260,13 +298,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/app.routes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        <state relative-caret-position="295">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rutasAngular/src/app/ruta-inicio/ruta-inicio.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

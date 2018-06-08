@@ -7,13 +7,17 @@ import { RutaNoEncontradaComponent } from './ruta-no-encontrada/ruta-no-encontra
 import {Router, RouterModule} from "@angular/router";
 import {RUTAS_APP} from "./app.routes";
 import { RutaFAQComponent } from './ruta-faq/ruta-faq.component';
+import { RutaIniUsuarioComponent } from './ruta-ini-usuario/ruta-ini-usuario.component';
+import { RutaIniPermisosComponent } from './ruta-ini-permisos/ruta-ini-permisos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RutaInicioComponent,
     RutaNoEncontradaComponent,
-    RutaFAQComponent
+    RutaFAQComponent,
+    RutaIniUsuarioComponent,
+    RutaIniPermisosComponent
   ],
   imports: [
     BrowserModule,
