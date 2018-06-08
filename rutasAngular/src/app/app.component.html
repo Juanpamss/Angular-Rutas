@@ -11,7 +11,7 @@
       <ul>
         <li>
 
-          <a routerLink="/inicio">
+          <a [routerLink]="['/inicio','hola','como',variableEstas]">
 
             <h3>Inicio</h3>
 
@@ -31,11 +31,9 @@
 
       </ul>
 
+      <button class="btn btn-info" (click)="irAInfo()">Info</button>
 
-      <router-outlet>
-
-
-      </router-outlet>
+      <button class="btn btn-success" (click)="irAFAQ()">FAQ</button>
 
     </div>
 

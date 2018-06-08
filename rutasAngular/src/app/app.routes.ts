@@ -6,7 +6,7 @@ import {RutaFAQComponent} from "./ruta-faq/ruta-faq.component";
 export const RUTAS_APP: Routes = [
 
   {
-    path: 'inicio',
+    path: 'inicio/hola/como/estas',
     component: RutaInicioComponent
 
   },
@@ -19,7 +19,7 @@ export const RUTAS_APP: Routes = [
 
   {
     path: '',
-    redirectTo: '/inicio',
+    redirectTo: 'inicio/hola/como/estas',
     pathMatch: 'full'
 
   },
