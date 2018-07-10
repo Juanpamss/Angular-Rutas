@@ -9,6 +9,7 @@ import {RUTAS_APP} from "./app.routes";
 import { RutaFAQComponent } from './ruta-faq/ruta-faq.component';
 import { RutaIniUsuarioComponent } from './ruta-ini-usuario/ruta-ini-usuario.component';
 import { RutaIniPermisosComponent } from './ruta-ini-permisos/ruta-ini-permisos.component';
+import {AutorizacionService} from "./autorizacion.service";
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import { RutaIniPermisosComponent } from './ruta-ini-permisos/ruta-ini-permisos.
 
     )
   ],
-  providers: [],
+  providers: [
+    AutorizacionService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
